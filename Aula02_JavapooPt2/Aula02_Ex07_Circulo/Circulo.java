@@ -1,0 +1,37 @@
+
+package Aula02_Ex07_Circulo;
+
+public class Circulo {
+    private double raio;
+
+    public Circulo(double raio) {
+        this.raio = raio;
+    }
+    
+    public double calcularArea(){
+        return Math.PI * raio * raio;
+    }
+    
+    public double calcularCircunFerencia(){
+        return 2 * Math.PI * raio;
+    }
+
+    public double getRaio() {
+        return raio;
+    }
+
+    public void setRaio(double raio) {
+        this.raio = raio;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
